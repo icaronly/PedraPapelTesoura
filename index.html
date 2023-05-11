@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra, Papel ou Tesoura</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="rock-paper-scissors.png">
+</head>
+
+<body>
+
+    <div class="sub-fundo">
+
+        <h1>
+            Pedra Papel ou Tesoura
+        </h1>
+        <h2>
+            Vamos jogar um pouco para descontrair!
+        </h2>
+
+        <table class="tabela-centro">
+            <tr>
+                <td>Jogador 1</td>
+                <td>Jogador 2</td>
+            </tr>
+            <tr>
+                <td>Aperte A para Pedra</td>
+                <td>Aperte 1 para Pedra</td>
+            </tr>
+            <tr>
+                <td>Aperte S para Papel</td>
+                <td>Aperte 2 para Papel</td>
+            </tr>
+            <tr>
+                <td>Aperte D para Tesoura</td>
+                <td>Aperte 3 para Tesoura</td>
+            </tr>
+        </table>
+
+        <img src="imagens/unicamp2022_1fase_27.jpg" alt="Exemplo">
+
+        <h2>
+            Vamos as regras
+        </h2>
+
+        <div class="regras">
+            <p> Pedra GANHA da Tesoura</p>
+            <p> Papel GANHA da Pedra</p>
+            <p> Tesoura GANHA da Papel</p>
+        </div>
+
+        <div>
+            <button class="botao" id="btn">
+                Descobrir o Vencedor
+            </button>
+        </div>
+
+        <div class="resultado" id="resultado"></div>
+
+        <div class="arena" id="x1">
+            <div class="mao1" id="mao1"></div>
+            <div class="mao2" id="mao2"></div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

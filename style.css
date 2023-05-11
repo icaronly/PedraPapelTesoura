@@ -1,0 +1,65 @@
+body {
+    margin: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.sub-fundo {
+    box-shadow: 0 0 3px 5px rgb(165, 165, 165);
+    width: 70%;
+    background-color: rgb(122, 122, 122);
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 15%;
+}
+
+.tabela-centro {
+    margin-left: 25%;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+img {
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 1px 3px rgb(165, 165, 165);
+}
+
+th, td {
+    border: 3px solid white;
+    font-size: 20px;
+}
+
+.resultado {
+    font-size: 50px;
+    margin: 20px;
+}
+
+.arena {
+    display: flex;
+    margin-left: 25%;
+    padding: 1%;
+}
+
+.mao2 {
+    margin-left: 25%;
+}
+
+.quem {
+    margin-left: 10%;
+}
+
+.botao {
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 20%;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.regras {
+    text-align: center;
+    margin-bottom: 20px;
+}
